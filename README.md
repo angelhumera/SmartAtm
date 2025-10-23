@@ -1,5 +1,4 @@
-SmartATM – Python & Flask ATM Simulation 
-Overview
+SmartATM – Python & Flask ATM Simulation --->
 SmartATM is a web-based ATM simulation project built with Python, Flask, Docker, and Jenkins.
 It demonstrates core ATM functionalities like balance check, deposit, and withdrawal.
 The project showcases full-stack development, containerized deployment, and CI/CD pipeline skills.
