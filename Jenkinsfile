@@ -35,5 +35,5 @@ pipeline {
         failure {
             echo '❌ Pipeline failed. Check console output for errors.'
         }
-    }
-}
+ }
+
