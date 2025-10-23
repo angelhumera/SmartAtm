@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/angelhumera/SmartAtm.git'/SmartAtm.git'
+                git 'https://github.com/angelhumera/SmartAtm.git'/SmartAtm.git
             }
         }
         stage('Build Docker Image') {
