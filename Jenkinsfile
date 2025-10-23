@@ -26,14 +26,12 @@ pipeline {
             }
         }
     }
-}
-
- post {
+post {
         success {
-            echo '✅ Pipeline completed successfully. SmartATM is deployed!'
+            echo "✅ Pipeline completed successfully. SmartATM is deployed!"
         }
         failure {
-            echo '❌ Pipeline failed. Check console output for errors.'
+            echo "❌ Pipeline failed. Check console output for errors."
         }
- }
-
+    }
+}
